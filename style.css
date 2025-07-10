@@ -1,4 +1,170 @@
 body {
     background-color: #0f161e;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%239db2bf' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myNameTitle {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #f2f5f8;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.myNameTitle::before, .myNameTitle::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    background-color: #f2f5f8;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.myNameTitle::before {
+    bottom: 0;
+}
+
+.myNameTitle::after {
+    bottom: -5px;
+}
+
+.myNameTitle:hover::before, .myNameTitle:hover::after {
+    cursor: pointer;
+    transform: scaleX(1);
+}
+
+.proffDesc {
+    width: 50%;
+    height: 400px;
+    border: solid 2px #9cb1be;
+    border-radius: 8px;
+    background-color: #1e272f;
+    position: absolute;
+    top: 300px;
+    transform-origin: center;
+    transition: transform 0.2s ease-out;
+}
+
+.proffDesc:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+    .topCorner {
+        transform: translateY(500px) rotate(-180deg);
+    }
+
+    .leftTopCorner{
+        transform: translateY(300px) rotate(-180deg);
+    }
+
+    .bottomCorner {
+        transform: translateY(-500px) rotate(-180deg);
+    }
+
+    .rightBottomCorner {
+        transform: translateY(-300px) rotate(-180deg);
+    }
+}
+
+.topCorner {
+    width: 200px;
+    border: solid 2px #9cb1be;
+    border-radius: 50px;
+    transition: transform 0.2s ease;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.leftTopCorner {
+    height: 200px;
+    border: solid 2px #9cb1be;
+    border-radius: 50px;
+    transition: transform 0.2s ease;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.bottomCorner {
+    width: 200px;
+    border: solid 2px #9cb1be;
+    border-radius: 50px;
+    transition: transform 0.2s ease;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+}
+
+.rightBottomCorner {
+    height: 200px;
+    border: solid 2px #9cb1be;
+    border-radius: 50px;
+    transition: transform 0.2s ease;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+}
+
+.descriptionTitle {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f2f5f8;
+    font-size: 40px;
+    padding-left: 5%;
+}
+
+.personalDescription {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f2f5f8;
+    font-size: 25px;
+    width: 60%;
+    padding-left: 8%;
+    position: absolute;
+    top: 100px;
+}
+
+.imgContanier {
+    width: 250px;
+    height: 350px;
+    border: solid 2px #9cb1be;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inspiring1 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f2f5f8;
+    font-size: 45px;
+    width: 700px;
+    text-align: center;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    position: absolute;
+    top: 900px;
+}
+
+.inspiring1.visible {
+    opacity: 1;
+    transform: translateX(0);
 }
