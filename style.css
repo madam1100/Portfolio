@@ -10,7 +10,7 @@ body {
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 60px;
     color: #f2f5f8;
     display: inline-block;
     cursor: pointer;
@@ -46,7 +46,7 @@ body {
 }
 
 .proffDesc {
-    width: 50%;
+    width: 60%;
     height: 400px;
     border: solid 2px #9cb1be;
     border-radius: 8px;
@@ -123,7 +123,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #f2f5f8;
-    font-size: 40px;
+    font-size: 50px;
     padding-left: 5%;
 }
 
@@ -132,7 +132,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #f2f5f8;
-    font-size: 25px;
+    font-size: 30px;
     width: 60%;
     padding-left: 8%;
     position: absolute;
@@ -144,7 +144,7 @@ body {
     height: 350px;
     border: solid 2px #9cb1be;
     position: absolute;
-    right: 20px;
+    right: 25px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -154,17 +154,134 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #f2f5f8;
-    font-size: 45px;
-    width: 700px;
+    font-size: 50px;
+    width: 800px;
     text-align: center;
-    opacity: 0;
-    transform: translateX(-100px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
     position: absolute;
     top: 900px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.inspiring1.visible {
-    opacity: 1;
-    transform: translateX(0);
+body::-webkit-scrollbar {
+  display: none;                  /* Chrome, Safari, Edge */
+}
+
+.navigationButtons {
+    width: 250px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #f2f5f8;
+}
+
+.navP1 {
+    transition: transform 0.2s ease-out;
+    will-change: scale;
+}
+
+.navP1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navP1::before, .navP1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    background-color: #f2f5f8;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    width: 80%;
+}
+
+.navP1::before {
+    bottom: 0;
+}
+
+.navP1::after {
+    bottom: -5px;
+}
+
+.navP1:hover::before, .navP1:hover::after {
+    cursor: pointer;
+    transform: scaleX(1);
+}
+
+.navP2 {
+    transition: transform 0.2s ease-out;
+    will-change: scale;
+}
+
+.navP2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navP2::before, .navP2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    background-color: #f2f5f8;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    width: 55%;
+}
+
+.navP2::before {
+    bottom: 0;
+}
+
+.navP2::after {
+    bottom: -5px;
+}
+
+.navP2:hover::before, .navP2:hover::after {
+    cursor: pointer;
+    transform: scaleX(1);
+}
+
+.navP3 {
+    transition: transform 0.2s ease-out;
+    will-change: scale;
+}
+
+.navP3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navP3::before, .navP3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    background-color: #f2f5f8;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    width: 55%;
+}
+
+.navP3::before {
+    bottom: 0;
+}
+
+.navP3::after {
+    bottom: -5px;
+}
+
+.navP3:hover::before, .navP3:hover::after {
+    cursor: pointer;
+    transform: scaleX(1);
 }

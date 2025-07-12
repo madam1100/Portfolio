@@ -14,7 +14,7 @@
 
     <p class="myNameTitle">Jon Fejzullahu - Front End Developer</p>
 
-    <div class="proffDesc">
+    <div class="proffDesc" id="proffDesc">
         <div class="topCorner"></div>
         <div class="leftTopCorner"></div>
         <div class="bottomCorner"></div>
@@ -29,6 +29,13 @@
     </div>
 
     <p class="inspiring1">I create websites that are not just functional, but thoughtful — built with care, creativity, and a focus on user experience.</p>
+    
+    <div class="navigationButtons">
+        <p class="navP1" id="navP1" onclick="document.getElementById('proffDesc').scrollIntoView({behavior: 'smooth', block: 'end'})">Description</p>
+        <p class="navP2" onclick="document.getElementById('proffDesc').scrollIntoView({behavior: 'smooth', block: 'end'})">Projects</p>
+        <p class="navP3" onclick="document.getElementById('proffDesc').scrollIntoView({behavior: 'smooth', block: 'end'})">Contact</p>
+    </div>
+
     
     <script src="script.js"></script>
 </body>

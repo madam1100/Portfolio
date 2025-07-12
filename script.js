@@ -10,3 +10,12 @@ const observer = new IntersectionObserver (entries => {
 } , {threshold: 0.1});
 
 observer.observe(element);
+
+const navP1 = document.getElementById('navP1');
+
+navP1.addEventListener('click', function() {
+    document.getElementById('proffDesc').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+});
