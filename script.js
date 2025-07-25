@@ -1,3 +1,5 @@
+import TypeIt from "typeit";
+
 const element = document.getElementById('.inspiring1');
 
 const observer = new IntersectionObserver (entries => {
