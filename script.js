@@ -31,3 +31,11 @@ navP1.addEventListener('click', function() {
         block: 'start'
     });
 });
+
+window.addEventListener('wheel', (e) => {
+    e.preventDefault()
+    window.scrollBy({
+        top: e.deltaY > 0 ? 50 : -50,
+        behavior: smooth
+    })
+}, {passive: false})

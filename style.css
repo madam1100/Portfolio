@@ -15,10 +15,10 @@ body {
     color: #f2f5f8;
     display: inline-block;
     cursor: pointer;
-    position: absolute;
+    z-index: 3;
+    position: fixed;
     top: -20px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 2%;
 }
 
 .myNameTitle::before, .myNameTitle::after {
@@ -169,12 +169,6 @@ body::-webkit-scrollbar {
 }
 
 .navigationButtons {
-    width: 250px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 5px;
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -185,6 +179,10 @@ body::-webkit-scrollbar {
 .navP1 {
     transition: transform 0.2s ease-out;
     will-change: scale;
+    z-index: 3;
+    position: fixed;
+    right: 500px;
+    top: 0;
 }
 
 .navP1:hover {
@@ -201,7 +199,7 @@ body::-webkit-scrollbar {
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.5s ease;
-    width: 80%;
+    width: 100%;
 }
 
 .navP1::before {
@@ -220,6 +218,10 @@ body::-webkit-scrollbar {
 .navP2 {
     transition: transform 0.2s ease-out;
     will-change: scale;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    right: 270px;
 }
 
 .navP2:hover {
@@ -236,7 +238,7 @@ body::-webkit-scrollbar {
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.5s ease;
-    width: 55%;
+    width: 100%;
 }
 
 .navP2::before {
@@ -255,6 +257,10 @@ body::-webkit-scrollbar {
 .navP3 {
     transition: transform 0.2s ease-out;
     will-change: scale;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    right: 50px;
 }
 
 .navP3:hover {
@@ -271,7 +277,7 @@ body::-webkit-scrollbar {
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.5s ease;
-    width: 55%;
+    width: 100%;
 }
 
 .navP3::before {
@@ -413,8 +419,12 @@ body::-webkit-scrollbar {
     background: #1e272f;
     border: solid 1px #9cb1be;
     color: #f2f5f8;
-    padding: 10px 0;
-    font-family: monospace;
+    padding: 15px 0;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: 250px;
     position: absolute;
     top: 2800px;
     left: 50%;
@@ -423,15 +433,15 @@ body::-webkit-scrollbar {
 
 .track {
     display: inline-block;
-    animation: scroll-left 20s linear infinite;
+    animation: scroll-left 10s linear infinite;
 }
 
 @keyframes scroll-left {
     0% {
-        transform: translateX(100%);
+        transform: translateX(110%);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-110%);
     }
 }
 
@@ -645,4 +655,22 @@ body::-webkit-scrollbar {
     top: 4800px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.topBorder {
+    width: 99%;
+    border: solid 1px #9cb1be;
+    position: fixed;
+    top: 130px;
+}
+
+.blured {
+    width: 100%;
+    height: 130px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
 }

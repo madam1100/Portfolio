@@ -12,9 +12,11 @@
       <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fjalla+One&family=Inter:ital,opsz@0,14..32;1,14..32&family=Merriweather&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </span>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.18/bundled/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
 </head>
 <body>
-  <p class="myNameTitle">Jon Fejzullahu - Front End Web Developer</p>
+  <p class="myNameTitle" onclick="document.getElementById('proffDesc').scrollIntoView({behavior: 'smooth', block: 'end'})">Jon Fejzullahu - Front End Web Developer</p>
   <div class="proffDesc" id="proffDesc">
     <div class="topCorner"></div>
     <div class="leftTopCorner"></div>
@@ -26,9 +28,9 @@
   </div>
   <p class="inspiring1">" I create websites that are not just functional, but thoughtful — built with care, creativity, and a focus on user experience. "</p>
   <div class="navigationButtons">
-    <p class="navP1" id="navP1" onclick="document.getElementById('proffDesc').scrollIntoView({behavior: 'smooth', block: 'center'})">Description</p>
-    <p class="navP2" onclick="document.getElementById('borderProject1').scrollIntoView({behavior: 'smooth', block: 'center'})">Projects</p>
-    <p class="navP3" onclick="document.getElementById('proffDesc').scrollIntoView({behavior: 'smooth', block: 'end'})">Contact</p>
+    <p class="navP1" id="navP1" onclick="document.getElementById('proffDesc').scrollIntoView({behavior: 'smooth', block: 'center'})">Description,</p>
+    <p class="navP2" onclick="document.getElementById('borderProject1').scrollIntoView({behavior: 'smooth', block: 'center'})">Projects,</p>
+    <p class="navP3" onclick="document.getElementById('proffDesc').scrollIntoView({behavior: 'smooth', block: 'end'})">Contact.</p>
   </div>
   <div class="secondProfileDescription">
     <div class="topCorner1"></div>
@@ -71,6 +73,8 @@
     <button class="visitBt2" href="exmaple.com">Visit</button>
   </a>
   <p class="inspiring3">" Driven by curiosity and built on passion, I craft digital experiences that turn ideas into interactive realities. "</p>
+  <div class="topBorder"></div>
+  <div class="blured"></div>
   <script src="script.js"></script>
 </body>
 </html>
