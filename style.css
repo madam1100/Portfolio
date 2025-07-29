@@ -125,7 +125,36 @@ body {
     font-style: normal;
     color: #f2f5f8;
     font-size: 50px;
-    padding-left: 5%;
+    position: relative;
+    left: 5%;
+    display: inline-block;
+}
+
+.descriptionTitle::before,
+.descriptionTitle::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    background-color: #f2f5f8;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.descriptionTitle::before {
+    bottom: 0;
+}
+
+.descriptionTitle::after {
+    bottom: -5px;
+}
+
+/* This is the key selector: */
+.proffDesc:hover .descriptionTitle::before,
+.proffDesc:hover .descriptionTitle::after {
+    transform: scaleX(1);
 }
 
 .personalDescription {
@@ -333,7 +362,7 @@ body::-webkit-scrollbar {
     color: #f2f5f8;
     font-size: 50px;
     position: absolute;
-    right: 70px;
+    right: 5%;
 }
 
 .secondPersonal {
@@ -341,12 +370,39 @@ body::-webkit-scrollbar {
     font-weight: 400;
     font-style: normal;
     color: #f2f5f8;
-    font-size: 30px;
+    font-size: 28px;
     width: 65%;
     text-align: right;
     position: absolute;
     top: 100px;
     right: 100px;
+}
+
+.secondTitle::before,
+.secondTitle::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    background-color: #f2f5f8;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.secondTitle::before {
+    bottom: 0;
+}
+
+.secondTitle::after {
+    bottom: -5px;
+}
+
+/* This is the key selector: */
+.secondProfileDescription:hover .secondTitle::before,
+.secondProfileDescription:hover .secondTitle::after {
+    transform: scaleX(1);
 }
 
 .secondImg {
@@ -452,8 +508,8 @@ body::-webkit-scrollbar {
     border-radius: 8px;
     background-color: #1e272f;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     position: absolute;
     top: 3200px;
     right: 50%;
@@ -487,7 +543,34 @@ body::-webkit-scrollbar {
     color: #f2f5f8;
     font-size: 45px;
     position: absolute;
-    top: -10px;
+    top: -25px;
+}
+
+.projectTitle1::before,
+.projectTitle1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    background-color: #f2f5f8;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.projectTitle1::before {
+    bottom: 0;
+}
+
+.projectTitle1::after {
+    bottom: -5px;
+}
+
+/* This is the key selector: */
+.borderProject1:hover .projectTitle1::before,
+.borderProject1:hover .projectTitle1::after {
+    transform: scaleX(1);
 }
 
 .projectD1 {
@@ -496,10 +579,10 @@ body::-webkit-scrollbar {
     font-style: normal;
     color: #f2f5f8;
     font-size: 25px;
-    width: 60%;
+    width: 70%;
     text-align: center;
-    position: absolute;
-    top: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .dirLine1 {
@@ -572,6 +655,33 @@ body::-webkit-scrollbar {
     font-size: 45px;
     position: absolute;
     top: -10px;
+}
+
+.projectTitle2::before,
+.projectTitle2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    background-color: #f2f5f8;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.projectTitle2::before {
+    bottom: 0;
+}
+
+.projectTitle2::after {
+    bottom: -5px;
+}
+
+/* This is the key selector: */
+.borderProject2:hover .projectTitle2::before,
+.borderProject2:hover .projectTitle2::after {
+    transform: scaleX(1);
 }
 
 .projectD2 {
