@@ -4,7 +4,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 9000px;
+    /* height: 9500px; */
 }
 
 .myNameTitle {
@@ -1126,5 +1126,303 @@ body::-webkit-scrollbar {
 
     .rightBottomCorner1 {
         transform: translateY(-300px) rotate(-180deg);
+    }
+}
+
+.contactS {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #f2f5f8;
+    position: absolute;
+    top: 8800px;
+}
+
+.lastLine {
+    border: solid 1px #9cb1be;
+    width: 99%;
+    position: absolute;
+    top: -1px;
+}
+
+.cB {
+    width: 100%;
+    height: 130px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    position: absolute;
+    top: 9003px;
+    left: 0;
+}
+
+.cE {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #f2f5f8;
+}
+
+.EC {
+    z-index: 2;
+    transition: transform 0.2s ease-in-out;
+    will-change: scale;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EC:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.GC {
+    transition: transform 0.2s ease-in-out;
+    will-change: scale;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.GC:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.LC {
+    transition: transform 0.2s ease-in-out;
+    will-change: scale;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LC:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.TC {
+    transition: transform 0.2s ease-in-out;
+    will-change: scale;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TC:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.L4 {
+    border: solid 2px #9cb1be;
+    border-radius: 20px;
+    width: 10%;
+    position: absolute;
+    top: 6380px;
+    right: 55%;
+}
+
+.V4 {
+    width: 170px;
+    height: 60px;
+    border: solid 2px #9cb1be;
+    border-radius: 20px;
+    background-color: #1e272f;
+    color: #f2f5f8;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    transition: transform 0.2s ease;
+    will-change: scale;
+}
+
+.V4:hover {
+    transform: translateY(0) scale(1.2);
+    cursor: pointer;
+}
+
+#A4 {
+    position: absolute;
+    top: 6350px;
+    right: 67%;
+    animation: float 2000ms ease-in-out infinite;
+}
+
+#A5 {
+    position: absolute;
+    top: 7570px;
+    left: 67%;
+    animation: float 2000ms ease-in-out infinite;
+}
+
+.V5 {
+    width: 170px;
+    height: 60px;
+    border: solid 2px #9cb1be;
+    border-radius: 20px;
+    background-color: #1e272f;
+    color: #f2f5f8;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    transition: transform 0.2s ease;
+    will-change: scale;
+}
+
+.V5:hover {
+    transform: translateY(0) scale(1.2);
+    cursor: pointer;
+}
+
+.L5 {
+    border: solid 2px #9cb1be;
+    border-radius: 20px;
+    width: 10%;
+    position: absolute;
+    top: 7600px;
+    left: 55%;
+}
+
+.L6 {
+    border: solid 2px #9cb1be;
+    border-radius: 20px;
+    width: 10%;
+    position: absolute;
+    top: 8380px;
+    right: 55%;
+}
+
+.V6 {
+    width: 170px;
+    height: 60px;
+    border: solid 2px #9cb1be;
+    border-radius: 20px;
+    background-color: #1e272f;
+    color: #f2f5f8;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    transition: transform 0.2s ease;
+    will-change: scale;
+}
+
+.V6:hover {
+    transform: translateY(0) scale(1.2);
+    cursor: pointer;
+}
+
+#A6 {
+    position: absolute;
+    top: 8350px;
+    right: 67%;
+    animation: float 2000ms ease-in-out infinite;
+}
+
+@media (max-width: 1500px) {
+    .myNameTitle {
+        font-size: 45px;
+        position: fixed;
+        top: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navigationButtons {
+        display: none;
+    }
+
+    .secondProfileDescription {
+        height: 570px;
+    }
+
+    .secondPersonal {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1430px) {
+    .proffDesc {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1090px) {
+    .proffDesc {
+        width: 85%;
+    }
+}
+
+@media (max-width: 905px) {
+    .myNameTitle {
+        font-size: 40px;
+        position: fixed;
+        top: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 1050px) {
+    .proffDesc {
+        height: 500px;
+    }
+
+    .personalDescription {
+        width: 50%;
+    }
+}
+
+@media (max-width: 815px) {
+    .proffDesc {
+        height: 550px;
+    }
+
+    .myNameTitle {
+        font-size: 40px;
+        position: fixed;
+        top: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 775px) {
+    .myNameTitle {
+        font-size: 40px;
+        position: fixed;
+        top: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .proffDesc {
+        height: 620px;
+    }
+
+    .personalDescription {
+        width: 45%;
+    }
+}
+
+@media (max-width: 706px) {
+    .proffDesc {
+        height: 550px;
+    }
+
+    .personalDescription {
+        width: 40%;
+        font-size: 25px;
     }
 }

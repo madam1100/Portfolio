@@ -39,3 +39,9 @@ window.addEventListener('wheel', (e) => {
         behavior: smooth
     })
 }, {passive: false})
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     document.getElementById('EC').addEventListener('click', function () {
+//         window.location.href = 'https://mail.google.com/mail/u/0/#inbox'
+//     });
+// });
