@@ -1133,7 +1133,7 @@ body::-webkit-scrollbar {
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 65px;
     color: #f2f5f8;
     position: absolute;
     top: 8800px;
@@ -1408,7 +1408,7 @@ body::-webkit-scrollbar {
     }
 
     .proffDesc {
-        height: 620px;
+        height: 650px;
     }
 
     .personalDescription {
@@ -1424,5 +1424,197 @@ body::-webkit-scrollbar {
     .personalDescription {
         width: 40%;
         font-size: 25px;
+    }
+}
+
+@media (max-width: 666px) {
+    .myNameTitle {
+        font-size: 30px;
+        width: 100%;
+        position: fixed;
+        top: 15px;
+        left: 625px;
+    }
+
+    .proffDesc {
+        height: 800px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .descriptionTitle {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .personalDescription {
+        width: 80%;
+        text-align: center;
+        padding-left: 0;
+        position: absolute;
+        top: 130px;
+    }
+
+    .imgContanier {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .inspiring1 {
+        font-size: 40px;
+        width: 70%;
+        position: absolute;
+        top: 1400px;
+    }
+}
+
+@media (max-width: 610px) {
+    .proffDesc {
+        height: 850px;
+    }
+}
+
+@media (max-width: 510px) {
+    .imgContanier {
+        position: absolute;
+        top: 470px;
+    }
+}
+
+@media (max-width: 480px) {
+    .proffDesc {
+        height: 900px;
+    }
+}
+
+@media (max-width: 444px) {
+    .personalDescription {
+        position: absolute;
+        top: 100px;
+    }
+
+    .imgContanier {
+        position: absolute;
+        top: 500px;
+    }
+
+    .descriptionTitle {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 355px) {
+    .descriptionTitle {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 410px) {
+    .imgContanier {
+        position: absolute;
+        top: 520px;
+    }
+}
+
+@media (max-width: 365px) {
+    .imgContanier {
+        position: absolute;
+        top: 530px;
+    }
+}
+
+@media (max-width: 800px) {
+    .topCorner {
+        display: none;
+    }
+
+    .leftTopCorner {
+        display: none;
+    }
+
+    .bottomCorner {
+        display: none;
+    }
+
+    .rightBottomCorner {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    .imgContanier {
+        position: absolute;
+        top: 580px;
+        height: 300px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 311px) {
+    .proffDesc {
+        height: 1000px;
+    }
+
+    .imgContanier {
+        position: absolute;
+        top: 650px;
+    }
+}
+
+@media (max-width: 500px) {
+    .myNameTitle {
+        width: 100%;
+        position: fixed;
+        left: 460px;
+    }
+}
+
+@media (max-width: 1430px) {
+    .secondProfileDescription {
+        width: 80%;
+    }
+}
+
+@media (max-width: 990px) {
+    .secondProfileDescription {
+        height: 700px;
+    }
+
+    .secondPersonal {
+        position: absolute;
+        top: 120px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .topCorner1 {
+        display: none;
+    }
+
+    .bottomCorner1 {
+        display: none;
+    }
+
+    .leftTopCorner1 {
+        display: none;
+    }
+
+    .rightBottomCorner1 {
+        display: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    .inspiring2 {
+        position: absolute;
+        top: 2500px;
+    }
+
+    .marquee {
+        position: absolute;
+        top: 3000px;
     }
 }
