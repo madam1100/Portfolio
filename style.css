@@ -13,12 +13,11 @@ body {
     font-style: normal;
     font-size: 60px;
     color: #f2f5f8;
-    display: inline-block;
     cursor: pointer;
     z-index: 3;
     position: fixed;
     top: -20px;
-    left: 2%;
+    left: 20px;
 }
 
 .myNameTitle::before, .myNameTitle::after {
@@ -618,13 +617,13 @@ body::-webkit-scrollbar {
 
 @keyframes float {
     0% {
-        transform: translateY(0px);
+        transform: translateX(-50%) translateY(0px);
     }
     50% {
-        transform: translateY(10px);
+        transform: translateX(-50%) translateY(10px);
     }
     100% {
-        transform: translateY(0px);
+        transform: translateX(-50%) translateY(0px);
     }
 }
 
@@ -786,7 +785,7 @@ body::-webkit-scrollbar {
 }
 
 .topBorder {
-    width: 99%;
+    width: 100%;
     border: solid 1px #9cb1be;
     position: fixed;
     top: 130px;
@@ -1330,202 +1329,25 @@ body::-webkit-scrollbar {
     animation: float 2000ms ease-in-out infinite;
 }
 
-@media (max-width: 1500px) {
-    .myNameTitle {
-        font-size: 45px;
-        position: fixed;
-        top: -5px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .navigationButtons {
+@media (min-width: 320px) and (max-width: 374px) {
+    #hide {
         display: none;
     }
 
-    .secondProfileDescription {
-        height: 570px;
+    .myNameTitle {
+        font-size: 25px;
+        width: 93%;
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
-    .secondPersonal {
-        width: 50%;
-    }
-}
-
-@media (max-width: 1430px) {
-    .proffDesc {
-        width: 80%;
-    }
-}
-
-@media (max-width: 1090px) {
     .proffDesc {
         width: 85%;
-    }
-}
-
-@media (max-width: 905px) {
-    .myNameTitle {
-        font-size: 40px;
-        position: fixed;
-        top: -5px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-@media (max-width: 1050px) {
-    .proffDesc {
-        height: 500px;
-    }
-
-    .personalDescription {
-        width: 50%;
-    }
-}
-
-@media (max-width: 815px) {
-    .proffDesc {
-        height: 550px;
-    }
-
-    .myNameTitle {
-        font-size: 40px;
-        position: fixed;
-        top: -5px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-@media (max-width: 775px) {
-    .myNameTitle {
-        font-size: 40px;
-        position: fixed;
-        top: -5px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .proffDesc {
-        height: 650px;
-    }
-
-    .personalDescription {
-        width: 45%;
-    }
-}
-
-@media (max-width: 706px) {
-    .proffDesc {
-        height: 550px;
-    }
-
-    .personalDescription {
-        width: 40%;
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 666px) {
-    .myNameTitle {
-        font-size: 30px;
-        width: 100%;
-        position: fixed;
-        top: 15px;
-        left: 625px;
-    }
-
-    .proffDesc {
-        height: 800px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .descriptionTitle {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .personalDescription {
-        width: 80%;
-        text-align: center;
-        padding-left: 0;
-        position: absolute;
-        top: 130px;
-    }
-
-    .imgContanier {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .inspiring1 {
-        font-size: 40px;
-        width: 70%;
-        position: absolute;
-        top: 1400px;
-    }
-}
-
-@media (max-width: 610px) {
-    .proffDesc {
-        height: 850px;
-    }
-}
-
-@media (max-width: 510px) {
-    .imgContanier {
-        position: absolute;
-        top: 470px;
-    }
-}
-
-@media (max-width: 480px) {
-    .proffDesc {
         height: 900px;
     }
-}
 
-@media (max-width: 444px) {
-    .personalDescription {
-        position: absolute;
-        top: 100px;
-    }
-
-    .imgContanier {
-        position: absolute;
-        top: 500px;
-    }
-
-    .descriptionTitle {
-        font-size: 40px;
-    }
-}
-
-@media (max-width: 355px) {
-    .descriptionTitle {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 410px) {
-    .imgContanier {
-        position: absolute;
-        top: 520px;
-    }
-}
-
-@media (max-width: 365px) {
-    .imgContanier {
-        position: absolute;
-        top: 530px;
-    }
-}
-
-@media (max-width: 800px) {
     .topCorner {
         display: none;
     }
@@ -1541,60 +1363,56 @@ body::-webkit-scrollbar {
     .rightBottomCorner {
         display: none;
     }
-}
 
-@media (max-width: 350px) {
-    .imgContanier {
-        position: absolute;
-        top: 580px;
-        height: 300px;
-        width: 200px;
-    }
-}
-
-@media (max-width: 311px) {
-    .proffDesc {
-        height: 1000px;
+    .descriptionTitle {
+        font-size: 40px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
-    .imgContanier {
-        position: absolute;
-        top: 650px;
-    }
-}
-
-@media (max-width: 500px) {
-    .myNameTitle {
-        width: 100%;
-        position: fixed;
-        left: 460px;
-    }
-}
-
-@media (max-width: 1430px) {
-    .secondProfileDescription {
+    .personalDescription {
+        font-size: 25px;
         width: 80%;
-    }
-}
-
-@media (max-width: 990px) {
-    .secondProfileDescription {
-        height: 700px;
+        text-align: center;
     }
 
-    .secondPersonal {
+    .imgContanier {
+        width: 200px;
+        height: 300px;
         position: absolute;
-        top: 120px;
-        right: 20px;
+        top: 570px;
+        left: 50%;
+        transform: translateX(-50%);
     }
-}
 
-@media (max-width: 800px) {
-    .topCorner1 {
+    .inspiring1 {
+        font-size: 35px;
+        width: 80%;
+        position: absolute;
+        top: 1500px;
+    }
+
+    .navP1 {
         display: none;
     }
 
-    .bottomCorner1 {
+     .navP2 {
+        display: none;
+    }
+
+     .navP3 {
+        display: none;
+    }
+
+    .secondProfileDescription {
+        width: 85%;
+        height: 1200px;
+        position: absolute;
+        top: 2200px;
+    }
+
+    .topCorner1 {
         display: none;
     }
 
@@ -1602,19 +1420,162 @@ body::-webkit-scrollbar {
         display: none;
     }
 
+    .bottomCorner1 {
+        display: none;
+    }
+
     .rightBottomCorner1 {
         display: none;
     }
-}
 
-@media (max-width: 1440px) {
-    .inspiring2 {
+    .secondTitle {
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .secondPersonal {
+        font-size: 25px;
+        width: 80%;
+        text-align: center;
         position: absolute;
-        top: 2500px;
+        top: 160px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .secondImg {
+        width: 200px;
+        height: 300px;
+        z-index: 5;
+        position: absolute;
+        top: 850px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .inspiring2 {
+        font-size: 35px;
+        width: 80%;
+        position: absolute;
+        top: 3700px;
     }
 
     .marquee {
         position: absolute;
-        top: 3000px;
+        top: 4300px;
     }
+
+    .Project1 {
+        width: 85%;
+        height: 900px;
+        position: absolute;
+        top: 4800px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .Title1 {
+        font-size: 35px;
+        width: 80%;
+        position: absolute;
+        top: -10px;
+        left: 20px;
+    }
+
+    .projectD1 {
+        width: 80%;
+        position: absolute;
+        top: 220px;
+    }
+
+    .B1 {
+        position: absolute;
+        top: 110px;
+        left: 20px;
+    }
+
+    .dirLine1 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 5750px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #firstA {
+        position: absolute;
+        top: 5900px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    .project2 {
+        width: 85%;
+        height: 1000px;
+        position: absolute;
+        top: 6200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .Title2 {
+        font-size: 35px;
+        width: 80%;
+        position: absolute;
+        top: -10px;
+        left: 20px;
+    }
+
+    .projectD2 {
+        width: 80%;
+        text-align: left;
+        position: absolute;
+        top: 250px;
+    }
+
+    .B2 {
+        position: absolute;
+        top: 150px;
+        left: 20px;
+    }
+
+    .dirLine2 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 7250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #firstA2 {
+        position: absolute;
+        top: 7400px;
+        left: 50%;
+        right: auto;
+    }
+
+    .inspiring3 {
+        font-size: 35px;
+        width: 80%;
+        position: absolute;
+        top: 7800px;
+    }
+
+    .topBorder {
+        width: 100%;
+        position: fixed;
+        top: 100px;
+    }
+
+    .blured {
+        width: 100%;
+        height: 100px;
+    }
+    
 }
