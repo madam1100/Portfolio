@@ -1759,19 +1759,19 @@ body::-webkit-scrollbar {
 }
 
 @media (min-width: 375px) and (max-width: 424px) {
-    body {
-        height: 10000px;
-    }
+    /* body {
+        height: 20000px;
+    } */
 
-    #hide {
+    /* #hide {
         display: none;
-    }
+    } */
 
     .myNameTitle {
         font-size: 30px;
         width: 95%;
         position: fixed;
-        top: 20px;
+        top: 5px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -1993,4 +1993,609 @@ body::-webkit-scrollbar {
         right: auto;
     }
 
+    .inspiring3 {
+        font-size: 35px;
+        width: 80%;
+        position: absolute;
+        top: 7800px; 
+    }
+
+    .topBorder {
+        width: 100%;
+        position: fixed;
+        top: 100px;
+    }
+
+    .blured {
+        width: 100%;
+        height: 100px;
+    }
+
+    .thirdProject {
+        width: 85%;
+        height: 850px;
+        position: absolute;
+        top: 8500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .Title3 {
+        font-size: 40px;
+        width: 80%;
+        position: absolute;
+        top: -10px;
+        left: 20px;
+    }
+
+    .B3 {
+        position: absolute;
+        top: 130px;
+        left: 20px;
+    }
+
+    .D3 {
+        width: 80%;
+        text-align: left;
+        position: absolute;
+        top: 250px;
+    }
+
+    .L3 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 9400px;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    #A3 {
+        position: absolute;
+        top: 9550px;
+        left: 50%;
+        right: auto;
+    }
+
+    .fourthProject {
+        width: 85%;
+        height: 850px;
+        position: absolute;
+        top: 10000px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #idFT {
+        position: absolute;
+        top: 130px;
+    }
+
+    .L4 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 10900px;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    #A4 {
+       position: absolute;
+        top: 11050px;
+        left: 50%;
+        right: auto; 
+    }
+
+    .walking1 {
+        position: absolute;
+        top: 11500px;
+    }
+
+    .fifthProject {
+        width: 85%;
+        height: 850px;
+        position: absolute;
+        top: 12000px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .L5 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 12900px;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    #A5 {
+        position: absolute;
+        top: 13050px;
+        left: 50%;
+        right: auto; 
+    }
+
+    .sixthProject {
+        width: 85%;
+        height: 850px;
+        position: absolute;
+        top: 13500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .L6 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 14400px;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    #A6 {
+        position: absolute;
+        top: 14550px;
+        left: 50%;
+        right: auto; 
+    }
+
+    .contactS {
+        font-size: 40px;
+        text-align: center;
+        position: absolute;
+        top: 14850px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .cB {
+      width: 100%;
+        height: 600px;
+        flex-direction: column;
+        gap: 80px;
+        position: absolute;
+        top: 15200px;
+        left: 50%;
+        transform: translateX(-50%);  
+    }
+
+    .cE {
+        font-size: 30px
+    }
+
+    .EC img, .GC img, .LC img  {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .TC img {
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    #hide {
+        display: none;
+    }
+
+    /* body {
+        height: 20000px;
+    } */
+
+    .myNameTitle {
+        font-size: 40px;
+        width: 98%;
+        text-align: center;
+        position: fixed;
+        top: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .proffDesc {
+        width: 85%;
+        height: 1100px;
+    }
+
+    .topCorner {
+        display: none;
+    }
+
+    .leftTopCorner {
+        display: none;
+    }
+
+    .bottomCorner {
+        display: none;
+    }
+
+    .rightBottomCorner {
+        display: none;
+    }
+
+    .descriptionTitle {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .personalDescription {
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+        position: absolute;
+        top: 130px;
+    }
+
+    .imgContanier {
+        position: absolute;
+        top: 700px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .inspiring1 {
+        font-size: 40px;
+        width: 80%;
+        position: absolute;
+        top: 1800px;
+    }
+
+    .navP1 {
+        display: none;
+    }
+
+     .navP2 {
+        display: none;
+    }
+
+     .navP3 {
+        display: none;
+    }
+
+    .secondProfileDescription {
+        width: 85%;
+        height: 1250px;
+        position: absolute;
+        top: 2600px;
+    }
+
+    .topCorner1 {
+        display: none;
+    }
+
+    .leftTopCorner1 {
+        display: none;
+    }
+
+    .bottomCorner1 {
+        display: none;
+    }
+
+    .rightBottomCorner1 {
+        display: none;
+    }
+
+    .secondTitle {
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .secondPersonal {
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .secondImg {
+        position: absolute;
+        top: 850px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .inspiring2 {
+        font-size: 40px;
+        width: 80%;
+        position: absolute;
+        top: 4200px;
+    }
+
+    .marquee {
+        position: absolute;
+        top: 4900px;
+    }
+
+    .Project1 {
+        width: 85%;
+        height: 900px;
+        position: absolute;
+        top: 5300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .Title1 {
+        font-size: 40px;
+        width: 80%;
+        position: absolute;
+        top: -10px;
+        left: 20px;
+    }
+
+    .projectD1 {
+        width: 80%;
+        font-size: 30px;
+        position: absolute;
+        top: 220px;
+    }
+
+    .B1 {
+        position: absolute;
+        top: 130px;
+        left: 20px;
+    }
+
+    .dirLine1 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 6250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #firstA {
+        position: absolute;
+        top: 6400px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    .project2 {
+        width: 85%;
+        height: 1000px;
+        position: absolute;
+        top: 6900px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .Title2 {
+        font-size: 40px;
+        width: 80%;
+        position: absolute;
+        top: -10px;
+        left: 20px;
+    }
+
+    .projectD2 {
+        width: 80%;
+        text-align: left;
+        font-size: 30px;
+        position: absolute;
+        top: 250px;
+    }
+
+    .B2 {
+        position: absolute;
+        top: 150px;
+        left: 20px;
+    }
+
+    .dirLine2 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 7950px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #firstA2 {
+        position: absolute;
+        top: 8100px;
+        left: 50%;
+        right: auto;
+    }
+
+    .inspiring3 {
+        font-size: 40px;
+        width: 80%;
+        position: absolute;
+        top: 8500px;
+    }
+
+    .topBorder {
+        width: 100%;
+        position: fixed;
+        top: 150px;
+    }
+
+    .blured {
+        width: 100%;
+        height: 150px;
+    }
+
+    .thirdProject {
+        width: 85%;
+        height: 1050px;
+        position: absolute;
+        top: 9100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .Title3 {
+        font-size: 40px;
+        width: 80%;
+        position: absolute;
+        top: -10px;
+        left: 20px;
+    }
+
+    .B3 {
+        position: absolute;
+        top: 130px;
+        left: 20px;
+    }
+
+    .D3 {
+        width: 80%;
+        text-align: left;
+        font-size: 30px;
+        position: absolute;
+        top: 250px;
+    }
+
+    .L3 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 10200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #A3 {
+        position: absolute;
+        top: 10350px;
+        left: 50%;
+        right: auto;
+    }
+
+    .fourthProject {
+        width: 85%;
+        height: 1050px;
+        position: absolute;
+        top: 11000px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .L4 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 12100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #A4 {
+        position: absolute;
+        top: 12250px;
+        left: 50%;
+        right: auto;
+    }
+
+    .walking1 {
+        position: absolute;
+        top: 12700px;
+    }
+
+    .fifthProject {
+        width: 85%;
+        height: 1050px;
+        position: absolute;
+        top: 13200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .L5 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 14300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #A5 {
+        position: absolute;
+        top: 14450px;
+        left: 50%;
+        right: auto;
+    }
+
+    .sixthProject {
+        width: 85%;
+        height: 1050px;
+        position: absolute;
+        top: 15000px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .L6 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 16100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #A6 {
+        position: absolute;
+        top: 16250px;
+        left: 50%;
+        right: auto;
+    }
+    
+    .contactS {
+        font-size: 50px;
+        text-align: center;
+        position: absolute;
+        top: 16500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .cB {
+        width: 100%;
+        height: 600px;
+        flex-direction: column;
+        gap: 80px;
+        position: absolute;
+        top: 16900px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .cE {
+        font-size: 30px
+    }
+
+    .EC img, .GC img, .LC img  {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .TC img {
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
 }
