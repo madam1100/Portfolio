@@ -635,7 +635,7 @@ body::-webkit-scrollbar {
 #firstA {
     position: absolute;
     top: 3370px;
-    left: 67%;
+    right: 20%;
     animation: float 2000ms ease-in-out infinite;
 }
 
@@ -766,7 +766,7 @@ body::-webkit-scrollbar {
 #firstA2 {
     position: absolute;
     top: 4170px;
-    right: 67%;
+    right: 62%;
     animation: float 2000ms ease-in-out infinite;
 }
 
@@ -898,7 +898,7 @@ body::-webkit-scrollbar {
 #A3 {
     position: absolute;
     top: 5570px;
-    left: 67%;
+    right: 20%;
     animation: float 2000ms ease-in-out infinite;
 }
 
@@ -1253,14 +1253,14 @@ body::-webkit-scrollbar {
 #A4 {
     position: absolute;
     top: 6350px;
-    right: 67%;
+    right: 62%;
     animation: float 2000ms ease-in-out infinite;
 }
 
 #A5 {
     position: absolute;
     top: 7570px;
-    left: 67%;
+    right: 20%;
     animation: float 2000ms ease-in-out infinite;
 }
 
@@ -1325,7 +1325,7 @@ body::-webkit-scrollbar {
 #A6 {
     position: absolute;
     top: 8350px;
-    right: 67%;
+    right: 62%;
     animation: float 2000ms ease-in-out infinite;
 }
 
@@ -1351,7 +1351,7 @@ body::-webkit-scrollbar {
 
     .myNameTitle {
         font-size: 25px;
-        width: 93%;
+        white-space: nowrap;
         position: fixed;
         top: 20px;
         left: 50%;
@@ -1769,7 +1769,7 @@ body::-webkit-scrollbar {
 
     .myNameTitle {
         font-size: 30px;
-        width: 95%;
+        white-space: nowrap;
         position: fixed;
         top: 5px;
         left: 50%;
@@ -2191,11 +2191,10 @@ body::-webkit-scrollbar {
     } */
 
     .myNameTitle {
-        font-size: 40px;
-        width: 98%;
-        text-align: center;
+        font-size: 30px;
+        white-space: nowrap;
         position: fixed;
-        top: -5px;
+        top: 5px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2425,12 +2424,12 @@ body::-webkit-scrollbar {
     .topBorder {
         width: 100%;
         position: fixed;
-        top: 150px;
+        top: 100px;
     }
 
     .blured {
         width: 100%;
-        height: 150px;
+        height: 100px;
     }
 
     .thirdProject {
@@ -2598,4 +2597,350 @@ body::-webkit-scrollbar {
         transform: translateX(-50%);
     }
     
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* body {
+        height: 15000px;
+    } */
+
+    #hide {
+        display: none;
+    }
+
+    .myNameTitle {
+        font-size: 50px;
+        white-space: nowrap;
+        z-index: 3;
+        position: fixed;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .proffDesc {
+        width: 85%;
+        height: 700px;
+    }
+
+    .topCorner {
+        display: none;
+    }
+
+    .leftTopCorner {
+        display: none;
+    }
+
+    .bottomCorner {
+        display: none;
+    }
+
+    .rightBottomCorner {
+        display: none;
+    }
+
+    .descriptionTitle {
+        position: absolute;
+        left: 40px;
+    }
+
+    .personalDescription {
+        font-size: 30px;
+        width: 40%;
+        position: absolute;
+        top: 110px;
+        left: 10px;
+    }
+
+    .inspiring1 {
+        font-size: 50px;
+        width: 80%;
+        position: absolute;
+        top: 1300px;
+    }
+
+    .navP1 {
+        display: none;
+    }
+
+     .navP2 {
+        display: none;
+    }
+
+     .navP3 {
+        display: none;
+    }
+
+    .secondProfileDescription {
+        width: 85%;
+        height: 900px;
+        position: absolute;
+        top: 2000px;
+    }
+
+    .topCorner1 {
+        display: none;
+    }
+
+    .leftTopCorner1 {
+        display: none;
+    }
+
+    .bottomCorner1 {
+        display: none;
+    }
+
+    .rightBottomCorner1 {
+        display: none;
+    }
+
+    .secondTitle {
+        position: absolute;
+        right: 40px;
+    }
+
+    .secondPersonal {
+        font-size: 30px;
+        width: 40%;
+        position: absolute;
+        top: 110px;
+        right: 70px;
+    }
+
+    .inspiring2 {
+        font-size: 40px;
+        width: 80%;
+        position: absolute;
+        top: 3200px;
+    }
+
+    .marquee {
+        position: absolute;
+        top: 3800px;
+    }
+
+    .Project1 {
+        width: 85%;
+        height: 500px;
+        position: absolute;
+        top: 4300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .Title1 {
+        font-size: 50px;
+    }
+
+    .projectD1 {
+        width: 80%;
+        position: absolute;
+        top: 150px;
+    }
+
+    .B1 {
+        position: absolute;
+        top: 80px;
+    }
+
+    .dirLine1 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 4900px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #firstA {
+        position: absolute;
+        top: 5050px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .visitBt1 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .project2 {
+        width: 80%;
+        height: 500px;
+        position: absolute;
+        top: 5500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .dirLine2 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 6050px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #firstA2 {
+        position: absolute;
+        top: 6200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .visitBt2 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .inspiring3 {
+        font-size: 40px;
+        width: 80%;
+        position: absolute;
+        top: 6500px;
+    }
+
+    .topBorder {
+        width: 100%;
+        position: fixed;
+        top: 100px;
+    }
+
+    .blured {
+        width: 100%;
+        height: 100px;
+    }
+
+    .thirdProject {
+        width: 85%;
+        height: 500px;
+        position: absolute;
+        top: 7000px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .L3 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 7550px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #A3 {
+        position: absolute;
+        top: 7700px;
+        left: 50%;
+        right: auto;
+    }
+
+    .fourthProject {
+        width: 85%;
+        height: 500px;
+        position: absolute;
+        top: 8200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .L4 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 8750px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #A4 {
+        position: absolute;
+        top: 8900px;
+        left: 50%;
+        right: auto;
+    }
+
+    .walking1 {
+        position: absolute;
+        top: 9300px;
+    }
+
+    .fifthProject {
+        width: 85%;
+        height: 500px;
+        position: absolute;
+        top: 9800px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .L5 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 10350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #A5 {
+        position: absolute;
+        top: 10500px;
+        left: 50%;
+        right: auto;
+    }
+
+    .sixthProject {
+        width: 85%;
+        height: 500px;
+        position: absolute;
+        top: 11000px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .L6 {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        top: 11550px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #A6 {
+        position: absolute;
+        top: 11700px;
+        left: 50%;
+        right: auto;
+    }
+
+    .contactS {
+        font-size: 50px;
+        white-space: nowrap;
+        position: absolute;
+        top: 12000px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .cB {
+        width: 100%;
+        height: 700px;
+        flex-direction: column;
+        gap: 100px;
+        z-index: 4;
+        position: absolute;
+        top: 12300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .cE {
+        font-size: 40px;
+    }
 }
