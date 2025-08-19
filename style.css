@@ -878,7 +878,7 @@ body::-webkit-scrollbar {
     font-style: normal;
     color: #f2f5f8;
     font-size: 25px;
-    width: 80%;
+    width: 82%;
     position: absolute;
     top: 120px;
     left: 50%;
@@ -1618,7 +1618,7 @@ body::-webkit-scrollbar {
     }
 
     .D3 {
-        width: 80%;
+        width: 82%;
         text-align: left;
         position: absolute;
         top: 250px;
@@ -2036,7 +2036,7 @@ body::-webkit-scrollbar {
     }
 
     .D3 {
-        width: 80%;
+        width: 82%;
         text-align: left;
         position: absolute;
         top: 250px;
@@ -2457,7 +2457,7 @@ body::-webkit-scrollbar {
     }
 
     .D3 {
-        width: 80%;
+        width: 82%;
         text-align: left;
         font-size: 30px;
         position: absolute;
