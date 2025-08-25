@@ -2364,8 +2364,8 @@ body::-webkit-scrollbar {
         position: absolute;
         top: 6400px;
         left: 50%;
+        right: auto;
         transform: translateX(-50%);
-        
     }
 
     .project2 {
