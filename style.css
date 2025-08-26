@@ -2665,8 +2665,8 @@ body::-webkit-scrollbar {
     }
 
     .proffDesc {
-        width: 85%;
-        height: 700px;
+        width: 690px;
+        height: 600px;
     }
 
     .topCorner {
@@ -2687,22 +2687,24 @@ body::-webkit-scrollbar {
 
     .descriptionTitle {
         position: absolute;
-        left: 40px;
+        top: -15px;
+        left: 30px;
     }
 
     .personalDescription {
         font-size: 30px;
-        width: 40%;
+        width: 330px;
         position: absolute;
-        top: 110px;
-        left: 10px;
+        top: 50%;
+        left: 50px;
+        transform: translateY(-50%);
     }
 
     .inspiring1 {
         font-size: 50px;
         width: 80%;
         position: absolute;
-        top: 1300px;
+        top: 1100px;
     }
 
     .navP1 {
@@ -2718,10 +2720,10 @@ body::-webkit-scrollbar {
     }
 
     .secondProfileDescription {
-        width: 85%;
-        height: 900px;
+        width: 690px;
+        height: 830px;
         position: absolute;
-        top: 2000px;
+        top: 1700px;
     }
 
     .topCorner1 {
@@ -2742,34 +2744,36 @@ body::-webkit-scrollbar {
 
     .secondTitle {
         position: absolute;
-        right: 40px;
+        top: -10px;
+        right: 30px;
     }
 
     .secondPersonal {
         font-size: 30px;
-        width: 40%;
+        width: 310px;
         position: absolute;
-        top: 110px;
-        right: 70px;
+        top: 50%;
+        right: 50px;
+        transform: translateY(-50%);
     }
 
     .inspiring2 {
         font-size: 40px;
         width: 80%;
         position: absolute;
-        top: 3200px;
+        top: 2800px;
     }
 
     .marquee {
         position: absolute;
-        top: 3800px;
+        top: 3200px;
     }
 
     .Project1 {
-        width: 85%;
-        height: 500px;
+        width: 600px;
+        height: 470px;
         position: absolute;
-        top: 4300px;
+        top: 3500px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2779,7 +2783,7 @@ body::-webkit-scrollbar {
     }
 
     .projectD1 {
-        width: 80%;
+        width: 450px;
         position: absolute;
         top: 150px;
     }
@@ -2793,14 +2797,14 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 4900px;
+        top: 4000px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #firstA {
         position: absolute;
-        top: 5050px;
+        top: 4120px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2812,10 +2816,10 @@ body::-webkit-scrollbar {
     }
 
     .project2 {
-        width: 85%;
+        width: 600px;
         height: 500px;
         position: absolute;
-        top: 5500px;
+        top: 4500px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2824,14 +2828,14 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 6050px;
+        top: 5030px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #firstA2 {
         position: absolute;
-        top: 6200px;
+        top: 5150px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2846,7 +2850,7 @@ body::-webkit-scrollbar {
         font-size: 40px;
         width: 80%;
         position: absolute;
-        top: 6500px;
+        top: 5450px;
     }
 
     .topBorder {
@@ -2861,10 +2865,10 @@ body::-webkit-scrollbar {
     }
 
     .thirdProject {
-        width: 85%;
+        width: 600px;
         height: 500px;
         position: absolute;
-        top: 7000px;
+        top: 5900px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2873,23 +2877,23 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 7550px;
+        top: 6430px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #A3 {
         position: absolute;
-        top: 7700px;
+        top: 6550px;
         left: 50%;
         right: auto;
     }
 
     .fourthProject {
-        width: 85%;
+        width: 600px;
         height: 500px;
         position: absolute;
-        top: 8200px;
+        top: 6900px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2898,28 +2902,28 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 8750px;
+        top: 7430px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #A4 {
         position: absolute;
-        top: 8900px;
+        top: 7550px;
         left: 50%;
         right: auto;
     }
 
     .walking1 {
         position: absolute;
-        top: 9300px;
+        top: 7850px;
     }
 
     .fifthProject {
-        width: 85%;
-        height: 500px;
+        width: 600px;
+        height: 480px;
         position: absolute;
-        top: 9800px;
+        top: 8200px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2928,23 +2932,23 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 10350px;
+        top: 8720px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #A5 {
         position: absolute;
-        top: 10500px;
+        top: 8840px;
         left: 50%;
         right: auto;
     }
 
     .sixthProject {
-        width: 85%;
+        width: 600px;
         height: 500px;
         position: absolute;
-        top: 11000px;
+        top: 9200px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2963,14 +2967,14 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 11550px;
+        top: 9730px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #A6 {
         position: absolute;
-        top: 11700px;
+        top: 9850px;
         left: 50%;
         right: auto;
     }
@@ -2979,7 +2983,7 @@ body::-webkit-scrollbar {
         font-size: 50px;
         white-space: nowrap;
         position: absolute;
-        top: 12000px;
+        top: 10100px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -2991,7 +2995,7 @@ body::-webkit-scrollbar {
         gap: 50px;
         z-index: 4;
         position: absolute;
-        top: 12300px;
+        top: 10250px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3021,20 +3025,20 @@ body::-webkit-scrollbar {
     }
 
     .proffDesc {
-        width: 80%;
+        width: 820px;
         height: 550px;
     }
 
     .personalDescription {
-        width: 50%;
+        width: 410px;
         position: absolute;
         top: 120px;
     }
 
     .inspiring1 {
-        width: 80%;
+        width: 820px;
         position: absolute;
-        top: 1200px;
+        top: 1100px;
     }
 
     .navP1 {
@@ -3050,32 +3054,32 @@ body::-webkit-scrollbar {
     }
 
     .secondProfileDescription {
-        width: 80%;
+        width: 820px;
         height: 600px;
         position: absolute;
-        top: 1900px;
+        top: 1700px;
     }
 
     .secondPersonal {
-        width: 50%;
+        width: 410px;
     }
 
     .inspiring2 {
-        width: 80%;
+        width: 820px;
         position: absolute;
-        top: 2800px;
+        top: 2500px;
     }
 
     .marquee {
         position: absolute;
-        top: 3400px;
+        top: 2950px;
     }
 
     .Project1 {
-        width: 80%;
-        height: 450px;
+        width: 820px;
+        height: 400px;
         position: absolute;
-        top: 3900px;
+        top: 3300px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3084,14 +3088,14 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 4400px;
+        top: 3730px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #firstA {
         position: absolute;
-        top: 4550px;
+        top: 3850px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3103,10 +3107,10 @@ body::-webkit-scrollbar {
     }
 
     .project2 {
-        width: 80%;
-        height: 450px;
+        width: 820px;
+        height: 400px;
         position: absolute;
-        top: 5000px;
+        top: 4200px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3115,14 +3119,14 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 5500px;
+        top: 4630px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #firstA2 {
         position: absolute;
-        top: 5650px;
+        top: 4750px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3134,9 +3138,9 @@ body::-webkit-scrollbar {
     }
 
     .inspiring3 {
-        width: 80%;
+        width: 820px;
         position: absolute;
-        top: 6000px;
+        top: 5000px;
     }
 
     .topBorder {
@@ -3152,10 +3156,10 @@ body::-webkit-scrollbar {
     }
 
     .thirdProject {
-        width: 80%;
-        height: 450px;
+        width: 820px;
+        height: 400px;
         position: absolute;
-        top: 6600px;
+        top: 5500px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3164,23 +3168,23 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 7150px;
+        top: 5930px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #A3 {
         position: absolute;
-        top: 7300px;
+        top: 6050px;
         left: 50%;
         right: auto;
     }
 
     .fourthProject {
-        width: 80%;
+        width: 820px;
         height: 450px;
         position: absolute;
-        top: 7800px;
+        top: 6450px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3189,14 +3193,14 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 8300px;
+        top: 6920px;
         left: 50%;
         transform: translateX(-50%);  
     }
 
     #A4 {
         position: absolute;
-        top: 8450px;
+        top: 7040px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3209,14 +3213,14 @@ body::-webkit-scrollbar {
 
     .walking1 {
         position: absolute;
-        top: 8800px;
+        top: 7350px;
     }
 
     .fifthProject {
-        width: 80%;
-        height: 450px;
+        width: 820px;
+        height: 400px;
         position: absolute;
-        top: 9200px;
+        top: 7700px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3225,14 +3229,14 @@ body::-webkit-scrollbar {
         width: 0;
         height: 100px;
         position: absolute;
-        top: 9700px;
+        top: 8130px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #A5 {
         position: absolute;
-        top: 9850px;
+        top: 8250px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3244,10 +3248,10 @@ body::-webkit-scrollbar {
     }
 
     .sixthProject {
-        width: 80%;
-        height: 450px;
+        width: 820px;
+        height: 400px;
         position: absolute;
-        top: 10300px;
+        top: 8600px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3255,14 +3259,14 @@ body::-webkit-scrollbar {
     .L6 {
         width: 0;
         height: 100px;
-        top: 10800px;
+        top: 9030px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     #A6 {
         position: absolute;
-        top: 10950px;
+        top: 9150px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3277,7 +3281,7 @@ body::-webkit-scrollbar {
         font-size: 50px;
         white-space: nowrap;
         position: absolute;
-        top: 11300px;
+        top: 9400px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3286,10 +3290,10 @@ body::-webkit-scrollbar {
         width: 100%;
         height: 150px;
         flex-direction: row;
-        gap: 30px;
+        gap: 40px;
         z-index: 4;
         position: absolute;
-        top: 11500px;
+        top: 9600px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -3310,6 +3314,11 @@ body::-webkit-scrollbar {
     }
 
     .proffDesc {
+        height: 400px;
+        width: 950px;
+    }
+
+    .proffDesc {
         height: 450px;
     }
 
@@ -3326,15 +3335,29 @@ body::-webkit-scrollbar {
     }
 
     .secondProfileDescription {
+        width: 900px;
         height: 500px;
     }
 
+    .secondTitle {
+        position: absolute;
+        top: -15px;
+    }
+
     .secondPersonal {
-        width: 55%;
+        width: 550px;
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        transform: translateY(-50%);
     }
 
     .Project1 {
-        height: 450px;
+        height: 430px;
+    }
+
+    .Project1 > .projectD1 {
+        width: 500px;
     }
 
     .dirLine1 {
@@ -3349,7 +3372,11 @@ body::-webkit-scrollbar {
     }
 
     .project2 {
-        height: 500px;
+        height: 450px;
+    }
+
+    .project2 > .projectD2 {
+        width: 500px;
     }
 
     .dirLine2 {
@@ -3362,7 +3389,11 @@ body::-webkit-scrollbar {
     }
 
     .thirdProject {
-        height: 500px;
+        height: 450px;
+    }
+
+    .thirdProject > .D3 {
+        width: 500px;
     }
 
     .L3 {
@@ -3377,7 +3408,11 @@ body::-webkit-scrollbar {
     }
 
     .fourthProject {
-        height: 500px;
+        height: 470px;
+    }
+
+    .fourthProject > .projectD2 {
+        width: 500px;
     }
 
     .L4 {
@@ -3391,7 +3426,11 @@ body::-webkit-scrollbar {
     }
 
     .fifthProject {
-        height: 500px;
+        height: 480px;
+    }
+
+    .fifthProject > .D3 {
+        width: 500px;
     }
 
     .L5 {
@@ -3407,6 +3446,22 @@ body::-webkit-scrollbar {
 
     .sixthProject {
         height: 500px;
+    }
+
+    .sixthProject > .Title2 {
+        width: 500px;
+        text-align: right;
+    }
+
+    .sixthProject > .B2 {
+        position: absolute;
+        top: 110px;
+    }
+
+    .sixthProject > .projectD2 {
+        width: 500px;
+        position: absolute;
+        top: 180px;
     }
 
     .L6 {
